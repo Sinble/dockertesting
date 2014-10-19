@@ -13,7 +13,10 @@ Prereqs:<br>
 
 Install:<br>
   Just run 'fig up'
-
+  
+Run without FIG<br>
+  docker build -t tomcat/tomcatimg .<br>
+  docker run -t -i -v ./webapp:/opt/tomcat/active/webapp -p 80:8080 tomcat/tomcatimg:latest /opt/tomcat/active/bin/catalina.sh run
 
 
 
