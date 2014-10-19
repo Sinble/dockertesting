@@ -2,6 +2,6 @@ web:
   build: .
   command: /opt/tomcat/active/bin/catalina.sh run
   volumes:
-    - ./webapp:/opt/tomcat/active/webapp
+    - ./webapps:/opt/tomcat/active/webapps
   ports:
     - "80:8080"
