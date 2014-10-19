@@ -1,6 +1,6 @@
 FROM      ubuntu
 
-#INSTALL WGET(might can remove this and just use COPY)
+#INSTALL WGET(might can remove this and just use COPY)change
 RUN apt-get update && apt-get install -y wget
 
 ######## INSTALL JAVA #################
