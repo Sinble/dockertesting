@@ -1,7 +1,7 @@
 FROM      oracle/ub_jre_v7
 
 #INSTALL WGET(might can remove this and just use COPY)change
-RUN apt-get update && apt-get install -y wget
+RUN apt-get install -y wget
 
 ####### TOMCAT INSTALL ###############
 
