@@ -1,7 +1,8 @@
-FROM      oracle/ub_jre_v7
+FROM      openjdk/co_jre_v7
 
 #INSTALL WGET(might can remove this and just use COPY)change
-RUN apt-get update && apt-get install -y wget
+RUN yum install -y wget
+RUN yum install -y tar
 
 ####### TOMCAT INSTALL ###############
 
