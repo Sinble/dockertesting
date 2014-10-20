@@ -14,9 +14,5 @@ Install:<br>
  ./createImages.sh
 
 Run Tomcat Image<br>
-  docker run -t -i -v /tomcat/webapps:/opt/tomcat/active/webapps -p 80:8080 apache/tomcat /opt/tomcat/active/bin/catalina.sh run
-
-
-
-
+  docker run -d -v /tomcat/webapps:/opt/tomcat/active/webapps -p 80:8080 apache/ub_tomcat_v7
 
