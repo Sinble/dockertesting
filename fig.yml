@@ -1,7 +1,0 @@
-web:
-  build: .
-  command: /opt/tomcat/active/bin/catalina.sh run
-  volumes:
-    - /Users/nrbunn/WorkSpace/DockerSpace/tomcatBuild/webapps:/opt/tomcat/active/webapps
-  ports:
-    - "80:8080"
