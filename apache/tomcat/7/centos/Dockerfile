@@ -18,7 +18,7 @@ USER tomcat
 
 #INSTALL TOMCAT
 WORKDIR /opt/tomcat
-RUN wget http://apache.arvixe.com/tomcat/tomcat-7/v7.0.56/bin/apache-tomcat-7.0.56.tar.gz
+RUN wget http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.56/bin/apache-tomcat-7.0.56.tar.gz
 RUN gunzip apache-tomcat-7.0.56.tar.gz
 RUN tar -xvf apache-tomcat-7.0.56.tar
 RUN ln -s apache-tomcat-7.0.56 active
